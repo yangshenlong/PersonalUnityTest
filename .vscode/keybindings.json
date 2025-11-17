@@ -1,0 +1,12 @@
+[
+    {
+        // 将回车键映射为插入两个换行符，从而自动空出一行
+        "key": "enter",
+        "command": "type",
+        "when": "textInputFocus && !editorReadOnly",
+        "args": {
+            "text": "\n\n"
+        }
+    }
+]
+

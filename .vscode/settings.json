@@ -1,0 +1,10 @@
+{
+    // 隐藏所有 .meta 文件，避免在代码编辑器资源管理器中干扰视图
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    // 按回车时自动将大括号展开为独立的新行，并保持缩进
+    "editor.autoIndent": "full",
+    "editor.formatOnType": true
+}
+
